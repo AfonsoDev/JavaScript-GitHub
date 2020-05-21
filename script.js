@@ -26,6 +26,9 @@
                 <div class="card-header">Voce esta olhando o perfil de :<span> ${user.login}</span></div>
                 <img class="card-img-top" src="${user.avatar_url}">
                 <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-center">Bio:
+                        <div>${user.bio}</div>
+                    </li>
                     <li class="list-group-item">Repositorios:<span class="badge badge-success">${user.public_repos}</span></li>
                     <li class="list-group-item">Seguidores: <span class="badge badge-primary">${user.followers}</span></li>
                     <li class="list-group-item">Seguindo: <span class="badge badge-warning">${user.following}</span></li>
